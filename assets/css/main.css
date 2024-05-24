@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: ;
-  --background-color: ;
+  --primary-color: #1e272e;
+  --background-color: #ffa801;
   --secondary-color: #f06292; /* Pink */
   --text-color: #1e272e; /* Dark Grey */
   --card-background: #d2dae2;

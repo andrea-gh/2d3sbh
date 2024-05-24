@@ -47,7 +47,18 @@ body {
 }
 
 .post-card {
+  background: var(--card-background);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--card-shadow);
   padding: 20px;
+  transition: transform 0.2s;
+}
+
+.post-cover {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 
 .post-title {
@@ -60,13 +71,6 @@ body {
   color: var(--text-color);
   font-size: 1em;
   line-height: 1.6;
-}
-
-.post-cover {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-  border-radius: calc(var(--border-radius) / 2);
 }
 
 .footer {

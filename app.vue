@@ -14,6 +14,7 @@
   </div>
 </template>
 
+
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 import '@/assets/css/main.css'; // Ensure this is imported to use the CSS

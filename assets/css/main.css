@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: ;
+  --background-color: ;
+  --secondary-color: #f06292; /* Pink */
+  --text-color: #1e272e; /* Dark Grey */
+  --card-background: #d2dae2;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --hover-transform: translateY(-20px); /* Adjusted for subtle effect */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.error {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr; /* Ensure one card per line */
+  gap: 40px;
+}
+
+.post-card {
+  background: var(--card-background);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px var(--card-shadow);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: var(--hover-transform);
+}
+
+.post-title {
+  color: var(--primary-color);
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.post-content {
+  color: var(--text-color);
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.post-cover {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: calc(var(--border-radius) / 2);
+}
+
+.footer {
+  color: var(--card-background);
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-top: 40px;
+  text-align: center;
+}

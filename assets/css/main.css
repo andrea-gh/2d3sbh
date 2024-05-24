@@ -48,16 +48,7 @@ body {
 }
 
 .post-card {
-  background: var(--card-background);
-  border: 1px solid #ddd;
-  border-radius: var(--border-radius);
-  box-shadow: 0 2px 4px var(--card-shadow);
   padding: 20px;
-  transition: transform 0.2s;
-}
-
-.post-card:hover {
-  transform: var(--hover-transform);
 }
 
 .post-title {
